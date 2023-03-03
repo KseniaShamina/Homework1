@@ -1,11 +1,23 @@
-*   {
-        margin: 0;
-        padding: 0;
-    }
+*  {
+    margin: 0;
+    padding: 0;
+}
 
  body {
  font-family: "Montserrat", sans-serif;
- background: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%) fixed;
+}
+
+.topcontent {
+    background-image: url(imgr/Rectangle 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 735px;
+    background-size: cover;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
 }
 
 .header {
@@ -22,7 +34,7 @@ font-size: 64px;
 line-height: 78px;
 display: flex;
 align-items: center;
-color: #FFFFFF
+color: black;
 margin-top: 217px;
 margin-bottom: 32px;
 }
@@ -34,7 +46,7 @@ font-size: 18px;
 line-height: 32px;
 display: flex;
 align-items: center;
-color: #FFFFFF;
+color: black;
 margin-bottom: 44px;
 }
 
@@ -50,14 +62,18 @@ margin-bottom: 44px;
      margin-bottom: 44px;
 }
 
-.games-box {
-    padding-top: 621px;
-}
-
- .games {
+.gameone {
+    width: 378px;
+    height: 300px;
     display: flex;
-    gap: 32px;
-    flex-wrap: wrap;
     box-sizing: border-box;
     border-radius: 16px;
+ }
+
+ .games {
+    padding-top: 621px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
  }
