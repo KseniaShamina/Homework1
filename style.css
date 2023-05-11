@@ -8,7 +8,7 @@
 }
 
 .topcontent {
-    background-image: url(imgr/Rectangle 1.jpg);
+    background-image: url(imgr/backimgigra.jpg);
     background-repeat: no-repeat;
     background-position: center;
     height: 735px;
@@ -34,9 +34,9 @@ font-size: 64px;
 line-height: 78px;
 display: flex;
 align-items: center;
-color: black;
+color: #FFFFFF;
 margin-top: 217px;
-margin-bottom: 32px;
+padding-bottom: 32px;
 }
 
 .top__text {
@@ -46,7 +46,8 @@ font-size: 18px;
 line-height: 32px;
 display: flex;
 align-items: center;
-color: black;
+color: #FFFFFF;
+padding-top: 32px;
 margin-bottom: 44px;
 }
 
@@ -59,7 +60,6 @@ margin-bottom: 44px;
      font-size: 15px;
      line-height: 18px;
      color: #FFFFFF;
-     margin-bottom: 44px;
 }
 
 .gameone {
@@ -67,13 +67,15 @@ margin-bottom: 44px;
     height: 300px;
     display: flex;
     box-sizing: border-box;
-    border-radius: 16px;
+    border-radius: 20px;
  }
 
  .games {
-    padding-top: 621px;
+    padding-top: 1152px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 32px;
+    background: #000915;
+    padding-bottom: 128px;
  }
