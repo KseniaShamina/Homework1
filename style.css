@@ -116,3 +116,24 @@ margin-bottom: 44px;
 .for__game_3 {
     background-image: url(imgr/igra3.jpg);
 }
+
+@media 
+(max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+
+.title {
+    font-size: 32px;
+}
+
+.top__text {
+font-size: 14px;
+}
+
+.for__game {
+gap: 16px;
+grid-template-columns: repeat(4, 1fr);
+}
